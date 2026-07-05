@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 420" role="img" aria-labelledby="title desc">
+  <title id="title">Human-centred socio-technical system symbol</title>
+  <desc id="desc">Abstract human-centred socio-technical system symbol with circular coloured elements.</desc>
+  <g fill="none" stroke-linecap="round" stroke-width="22" opacity="0.9">
+    <path d="M212 88a138 138 0 0 1 136 0" stroke="#7FB8B7"/>
+    <path d="M424 146a138 138 0 0 1 0 128" stroke="#A8A8A8"/>
+    <path d="M348 332a138 138 0 0 1-136 0" stroke="#D8C4A8"/>
+    <path d="M136 274a138 138 0 0 1 0-128" stroke="#D5A36F"/>
+  </g>
+  <g>
+    <circle cx="280" cy="160" r="36" fill="#0B1F33"/>
+    <path d="M215 254c20-43 110-43 130 0" fill="none" stroke="#0B1F33" stroke-width="22" stroke-linecap="round"/>
+  </g>
+  <circle cx="176" cy="105" r="36" fill="#007A75"/>
+  <circle cx="384" cy="105" r="36" fill="#007A75"/>
+  <circle cx="176" cy="315" r="36" fill="#C47125"/>
+  <circle cx="384" cy="315" r="36" fill="#888888"/>
+</svg>

@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="A practical guide to why the search for “the root cause” can narrow learning, using Air Canada Flight 759 as a systems-safety example." name="description"/><meta content="Gulsum Kubra Kaya" name="article:author"/><meta content="2026-07-04" name="article:published_time"/><meta content="A practical guide to why the search for “the root cause” can narrow learning, using Air Canada Flight 759 as a systems-safety example." name="twitter:description"/><meta content="What is wrong with 5 Whys and root cause thinking? | The Socio-Technical Safety Studio" name="twitter:title"/><meta content="summary" name="twitter:card"/><meta content="assets/img/hero-socio-technical-symbol.svg" property="og:image"/><meta content="article" property="og:type"/><meta content="A practical guide to why the search for “the root cause” can narrow learning, using Air Canada Flight 759 as a systems-safety example." property="og:description"/><meta content="What is wrong with 5 Whys and root cause thinking? | The Socio-Technical Safety Studio" property="og:title"/><meta content="The Socio-Technical Safety Studio" property="og:site_name"/><meta content="en" name="DC.language"/><meta content="The Socio-Technical Safety Studio" name="DC.publisher"/><meta content="Gulsum Kubra Kaya" name="DC.creator"/><meta content="system safety, human factors, socio-technical safety, risk assessment, accident analysis, STPA, FRAM, CAST, Safety-I, Safety-II, AI safety" name="keywords"/><meta content="#142B2A" name="theme-color"/><meta content="index, follow" name="robots"/><meta content="Gulsum Kubra Kaya" name="author"/>
+<title>What is wrong with 5 Whys and root cause thinking? | The Socio-Technical Safety Studio</title>
+<link href="assets/css/styles.css" rel="stylesheet"/>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Skip to main content</a>
+<header aria-label="Site header" class="site-header">
+<div class="container header-inner">
+<a aria-label="The Socio-Technical Safety Studio home" class="site-brand" href="index.html"><span aria-hidden="true" class="brand-mark">S<sup>3</sup></span><span class="brand-text"><span class="brand-title">The Socio-Technical Safety Studio</span><span class="brand-byline">by Dr Gulsum Kubra Kaya</span></span></a>
+<button aria-controls="site-navigation" aria-expanded="false" class="menu-toggle" type="button">
+<span aria-hidden="true" class="menu-toggle-lines"></span>
+<span class="sr-only">Open navigation menu</span>
+</button>
+<nav aria-label="Primary navigation" class="site-nav" id="site-navigation">
+<a class="nav-link" href="index.html">Home</a>
+<a class="nav-link" href="about.html">About</a>
+<a aria-current="page" class="nav-link active" href="resources.html">Resources</a>
+<a class="nav-link" href="services.html">Services</a>
+<a class="nav-link nav-cta" href="contact.html">Get in touch</a>
+</nav>
+</div>
+</header>
+<main id="main-content">
+<section aria-labelledby="article-title" class="article-hero section section-warm">
+<div class="container article-hero-inner">
+<a class="back-link" href="resources.html">← Back to resources</a>
+<div class="tag-row"><span class="tag tag-theme">Safety thinking</span><span class="tag tag-type">Guide</span></div>
+<h1 id="article-title">What is wrong with 5 Whys and root cause thinking?</h1>
+<p class="page-lead">A practical guide to why the search for “the root cause” can narrow learning, using Air Canada Flight 759 as a systems-safety example.</p>
+</div>
+</section>
+<section class="section section-blue article-section-wrap">
+<div class="container article-layout">
+<article class="article-main article-body">
+<div class="brief-panel"><h2>In brief</h2><ul>
+<li>5 Whys can be useful as a teaching exercise, but it is too weak
+to be a full accident analysis method.</li>
+<li>The main problem is not asking “why”; the problem is forcing a
+complex event into a narrow chain.</li>
+<li>Different starting points can produce different “root causes”,
+each plausible and each incomplete.</li>
+<li>Multiple 5 Whys chains are better than one, but they still
+struggle to show interactions, feedback, timing, trade-offs and
+recovery.</li>
+<li>The aim of investigation should be to understand how the system
+allowed the event to develop and how it can be made safer, not to stop
+once one or more “root causes” have been named.</li>
+</ul></div><h2>Why this topic matters</h2><p>After an accident or serious incident, people naturally want an
+answer. What caused it? Who made the mistake? What should be fixed?
+These are understandable questions, especially when harm has occurred or
+nearly occurred. But if the analysis is too eager to find a simple
+answer, it can miss the very conditions that need to change.</p><p>Root cause analysis is often presented as a structured way to learn
+from incidents. Used carefully, some forms of RCA can support
+disciplined investigation, evidence gathering and improvement. The
+problem is not structured incident analysis; the problem is when “root
+cause” becomes a promise of a single deep explanation. In complex
+socio-technical systems, this is rarely how accidents develop.</p><p>Healthcare, aviation, rail, process safety and digital systems are
+not simple machines with one broken part. They involve people,
+equipment, procedures, interfaces, regulators, suppliers, staffing
+models, information systems and local conditions. A serious event may
+only become possible when several ordinary features of the system line
+up in an unfortunate way.</p><p>The problem with 5 Whys is that it looks deceptively reasonable. It
+encourages us to keep asking why until we reach something that sounds
+deep enough to fix. But the method gives little help with deciding where
+to start, which path to follow, when to stop, what evidence is strong
+enough, which causes matter most, or how multiple causes interacted.</p><h2>The core idea</h2><p>The question “why did this happen?” is useful. The assumption that
+the answer will form a single neat chain is not.</p><p>A 5 Whys analysis usually begins with a problem statement and then
+asks “why?” repeatedly. The fifth answer is often treated as the root
+cause, and a corrective action is then attached to that answer. This can
+be helpful for a simple, local, well-bounded problem. For example, it
+may help a small team notice that a repeated equipment problem is linked
+to a maintenance process rather than to the person who last used the
+equipment.</p><p>But serious safety events are different. They usually contain several
+interacting pathways. Some are technical. Some are organisational. Some
+concern information design, fatigue, supervision, training, regulation,
+workload or the physical environment. Some concern recovery: why did the
+event not become worse? A single chain cannot show all of this.</p><p>A better investigation question is therefore not “what is the root
+cause?” but “what system conditions made this outcome possible, and what
+controls would make a similar outcome less likely or less severe?”</p><h2>A case example: Air Canada Flight 759</h2><p>The Air Canada Flight 759 event is a useful teaching case because the
+official investigation identified several interacting safety issues
+rather than one simple failure.</p><p>In July 2017, Air Canada Flight 759 was cleared to land on Runway 28R
+at San Francisco International Airport. The parallel Runway 28L was
+closed and dark. Four aircraft were waiting on Taxiway C. The Air Canada
+aircraft lined up with Taxiway C instead of Runway 28R and descended to
+very low altitude before the crew initiated a go-around. The aircraft
+overflew the first aircraft on the taxiway at about 100 feet and the
+second at about 60 feet before climbing away.</p><p>The investigation discussed many relevant conditions: runway closure
+information was present but not effectively retained; backup lateral
+guidance was not available because the ILS frequency was not manually
+tuned; the visual scene was ambiguous; the crew were fatigued;
+expectation bias affected interpretation of cues; tower alerting did not
+detect the taxiway alignment in time; and runway closure cues were not
+sufficiently conspicuous for this configuration.</p><p>This is exactly the kind of event where a narrow 5 Whys chain can
+become dangerous. It may produce a clean answer, but that answer may
+look clean because much of the system has been left out.</p><h2>What a single 5 Whys can do</h2><p>A single 5 Whys analysis of the Air Canada event might look like
+this:</p><h3>Single chain example</h3><ol type="1">
+<li><strong>Problem:</strong> The aircraft aligned with Taxiway C
+instead of Runway 28R.</li>
+<li><strong>Why?</strong> The crew misidentified Taxiway C as the
+intended landing runway.</li>
+<li><strong>Why?</strong> They were not sufficiently aware, at the
+moment of approach, that the parallel runway was closed and
+dark.</li>
+<li><strong>Why?</strong> The runway closure information in preflight
+and arrival information was not effectively retained and used during the
+approach.</li>
+<li><strong>Why?</strong> The information was embedded in operational
+documents and messages in a way that did not make the runway closure
+sufficiently salient.</li>
+<li><strong>Why?</strong> The information-presentation system did not
+reliably support pilot review, memory and threat formation for a
+non-standard night configuration.</li>
+</ol><p><strong>Possible root cause:</strong> ineffective information design
+for safety-critical operational changes.</p><p>This chain is not absurd. It points toward a real issue. But it can
+easily create the impression that improving NOTAM or ATIS presentation
+would be the answer. That would be an important improvement, but not a
+sufficient explanation of the event.</p><p>The same incident can be analysed from several equally plausible
+starting points. Each path leads to a different “root”. This is the
+danger.</p><h2>Multiple 5 Whys: same event, different roots</h2><p>Practitioners often use more than one 5 Whys chain, and that is
+certainly better than relying on a single chain. But even multiple
+chains can still fragment the system into separate lines of reasoning.
+The following examples show how the same event can generate several
+different “root causes”, depending on where the analyst begins.</p><p><strong>One event, many possible roots.</strong> ACA759 aligned with Taxiway C and descended to very low altitude.</p><p><strong>Information pathway:</strong> Runway closure information was
+present but not retained. Here, “root” becomes information design.</p><p><strong>Navigation pathway:</strong> ILS/localiser backup was not
+tuned. Here, “root” becomes exceptional manual tuning and chart/database
+design.</p><p><strong>Visual pathway:</strong> Taxiway C looked runway-like under a
+dark parallel runway configuration. Here, “root” becomes closure cue
+conspicuity.</p><p><strong>ATC pathway:</strong> Misalignment was not detected early
+enough. Here, “root” becomes surveillance alerting and monitoring
+support.</p><p><strong>Fatigue pathway:</strong> Crew performance was vulnerable at
+the end of a long duty period. Here, “root” becomes fatigue-risk
+controls and regulation.</p><h3>Chain 1: information was available, but not usable enough</h3><ol type="1">
+<li><strong>Problem:</strong> The flight crew did not use the runway
+closure information effectively during final approach.</li>
+<li><strong>Why?</strong> The closure was not strongly retained as an
+active threat during the approach.</li>
+<li><strong>Why?</strong> The information appeared among other
+operational information before and during the flight.</li>
+<li><strong>Why?</strong> The presentation did not sufficiently
+distinguish this runway closure as safety-critical for the approach
+configuration.</li>
+<li><strong>Why?</strong> The system relied on pilots to extract,
+remember and reapply a critical configuration change under workload and
+fatigue.</li>
+<li><strong>Why?</strong> Operational information design did not
+provide enough salience, prioritisation and just-in-time support for
+non-standard runway configurations.</li>
+</ol><p><strong>Possible root cause:</strong> safety-critical information was
+not designed for reliable human use at the point of need.</p><h3>Chain 2: backup lateral guidance was not available</h3><ol type="1">
+<li><strong>Problem:</strong> The crew did not have localiser
+guidance available to help verify runway alignment.</li>
+<li><strong>Why?</strong> The ILS frequency for Runway 28R was not
+tuned.</li>
+<li><strong>Why?</strong> The approach required manual tuning, and
+the first officer missed that step.</li>
+<li><strong>Why?</strong> This manual tuning requirement was unusual
+for the crew’s Airbus A320 operation.</li>
+<li><strong>Why?</strong> The approach database and charting
+arrangement did not provide consistent automatic tuning or sufficiently
+salient manual-tuning support.</li>
+<li><strong>Why?</strong> The design of the approach-support system
+relied on exceptional manual action for an important verification
+resource.</li>
+</ol><p><strong>Possible root cause:</strong> an exceptional manual
+configuration requirement weakened an important cross-check.</p><h3>Chain 3: the visual scene supported the wrong interpretation</h3><ol type="1">
+<li><strong>Problem:</strong> Taxiway C was perceived as the intended
+runway.</li>
+<li><strong>Why?</strong> The closed parallel runway was dark, while
+aircraft lights on Taxiway C created a straight-line visual
+pattern.</li>
+<li><strong>Why?</strong> Some cues supported the crew’s expectation
+that they were aligned with Runway 28R, while contradictory cues were
+not strong enough.</li>
+<li><strong>Why?</strong> The runway closure marker was not designed
+to capture the attention of a crew approaching a different runway in a
+parallel-runway configuration.</li>
+<li><strong>Why?</strong> Closure-cue design assumed that meeting
+marking requirements would be sufficient for visual
+discrimination.</li>
+<li><strong>Why?</strong> Airport visual-control design did not fully
+account for how people interpret a changed night-time airfield scene
+under expectation bias.</li>
+</ol><p><strong>Possible root cause:</strong> runway closure cues were not
+sufficiently conspicuous for the actual visual task.</p><h3>Chain 4: detection and intervention occurred too late</h3><ol type="1">
+<li><strong>Problem:</strong> ATC did not intervene until the
+aircraft was on very short final.</li>
+<li><strong>Why?</strong> The developing taxiway alignment was not
+recognised early enough.</li>
+<li><strong>Why?</strong> The aircraft’s position appeared compatible
+with the expected visual approach offset, and the controller’s tools did
+not alert to a likely taxiway landing.</li>
+<li><strong>Why?</strong> The airport surface surveillance system was
+not designed to predict this type of wrong-surface alignment and warn
+the controller.</li>
+<li><strong>Why?</strong> The control system relied on visual scan
+and controller interpretation under a non-standard night
+configuration.</li>
+<li><strong>Why?</strong> The monitoring and alerting architecture
+did not provide a strong enough control for wrong-surface approach
+detection.</li>
+</ol><p><strong>Possible root cause:</strong> surveillance and
+controller-support systems did not detect taxiway-alignment risk in real
+time.</p><h3>Chain 5: crew performance was vulnerable</h3><ol type="1">
+<li><strong>Problem:</strong> The crew did not detect and resolve the
+misalignment until very late.</li>
+<li><strong>Why?</strong> Their monitoring and cross-checking were
+degraded by workload, fatigue and expectation bias.</li>
+<li><strong>Why?</strong> The event occurred late relative to the
+crew’s body-clock time, after a long period awake and after a demanding
+flight segment.</li>
+<li><strong>Why?</strong> The applicable duty and reserve
+arrangements allowed this operating pattern.</li>
+<li><strong>Why?</strong> Fatigue controls did not adequately address
+evening reserve duty extending into the window of circadian
+low.</li>
+<li><strong>Why?</strong> The regulatory and organisational
+fatigue-risk controls did not fully match the operational risk
+profile.</li>
+</ol><p><strong>Possible root cause:</strong> fatigue-risk controls were
+insufficient for this duty pattern and operating context.</p><h3>Chain 6: learning evidence was lost</h3><ol type="1">
+<li><strong>Problem:</strong> Cockpit voice recorder data were not
+available to the investigation.</li>
+<li><strong>Why?</strong> The recording was overwritten before the
+severity of the event was recognised and preserved.</li>
+<li><strong>Why?</strong> The event was not escalated quickly enough
+to trigger immediate data-protection actions.</li>
+<li><strong>Why?</strong> Reporting and notification pathways did not
+reliably treat the near-miss as a time-critical learning event.</li>
+<li><strong>Why?</strong> The system did not provide sufficiently
+strong triggers for immediate evidence preservation after a serious near
+miss.</li>
+<li><strong>Why?</strong> Organisational learning controls were not
+designed around the short time window for preserving critical
+evidence.</li>
+</ol><p><strong>Possible root cause:</strong> evidence-preservation controls
+were not robust enough for high-severity near-miss learning.</p><h2>What these chains show</h2><p>Each chain tells a reasonable story. That is precisely the problem. A
+team can work carefully, ask “why” several times, and still end up with
+a partial explanation that feels complete.</p><p>The information chain suggests improving NOTAM and ATIS presentation.
+The navigation chain suggests improving FMS autotuning and
+approach-chart salience. The visual chain suggests improving runway
+closure cues. The ATC chain suggests improving wrong-surface alerting
+and tower procedures. The fatigue chain suggests improving fatigue-risk
+management. The learning chain suggests improving reporting and evidence
+preservation.</p><p>None of these is wrong. But none is “the” root cause. The event
+developed through their interaction. The runway closure changed the
+visual scene. The information about that closure was present but not
+effectively carried into action. The unusual manual-tuning requirement
+removed a stabilising cross-check. Fatigue and expectation bias made
+contradictory cues harder to recognise. The tower did not receive a
+strong automated alert. Other crews on the taxiway became an informal
+safety net. The recovery was not the result of one perfect control; it
+was a late convergence of pilot doubt, third-party warnings, light cues
+and go-around action.</p><p>A good analysis should preserve that interaction, not compress it
+into one chain.</p><h2>Why multiple 5 Whys are still not enough</h2><p>Using multiple 5 Whys is often presented as the solution to the
+“single root cause” problem. It is certainly an improvement. It
+encourages analysts to explore more than one line of questioning. But it
+still has important limitations.</p><p class="table-scroll-hint">Swipe horizontally to view full table.</p><div class="responsive-table"><table><caption class="sr-only">Resource comparison table</caption>
+<colgroup>
+<col/>
+<col/>
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Problem</strong></th>
+<th><strong>Why it matters</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Starting-point dependence</td>
+<td>The answer depends heavily on the first problem statement. “Why did
+the crew misidentify the taxiway?” leads somewhere different from “why
+did the system not detect the alignment?”</td>
+</tr>
+<tr class="even">
+<td>Linear structure</td>
+<td>Each chain implies a sequence, but many safety events involve
+parallel pathways, feedback loops and mutually reinforcing
+conditions.</td>
+</tr>
+<tr class="odd">
+<td>Weak interaction modelling</td>
+<td>Separate chains do not easily show how fatigue, information design,
+visual cues, navigation support and ATC monitoring influenced one
+another.</td>
+</tr>
+<tr class="even">
+<td>Arbitrary stop rule</td>
+<td>There is no principled reason why the fifth answer is deeper or more
+actionable than the third, seventh or tenth.</td>
+</tr>
+<tr class="odd">
+<td>Evidence fragility</td>
+<td>The method does not require each step to be tested against evidence.
+A plausible statement can become accepted because it fits the
+story.</td>
+</tr>
+<tr class="even">
+<td>Solution bias</td>
+<td>The last answer in a chain often becomes the target for action, even
+when a more effective control may sit earlier, later or elsewhere in the
+system.</td>
+</tr>
+</tbody>
+</table></div><p>The key issue is not the number of chains. It is the model of
+causation underneath the method. If the method still treats the event as
+a set of lines, it will struggle to show the network.</p><h2>What “root cause” language can hide</h2><p>Root cause language often hides uncertainty. It can make the final
+report sound more certain than the evidence allows. It can also move
+attention toward causes that are easier to write down, easier to assign
+to a department, or easier to fix within the organisation’s
+authority.</p><p>It can also encourage weak recommendations. If the “root cause” is
+written as “staff did not follow procedure”, the action may become
+“retrain staff”. If the “root cause” is “information not reviewed”, the
+action may become “remind staff to review information”. These actions
+may be appropriate in some cases, but they are often fragile controls.
+They depend on people remembering, noticing and compensating in the same
+difficult conditions that contributed to the event.</p><p>A systems-safety view asks a different set of questions. Was the
+procedure usable? Was the important information visible at the right
+time? Did the tools make the safe action easier? Did the organisation
+monitor whether the control was working? Did the regulator, supplier or
+designer hold part of the control problem? Did the system have enough
+recovery capacity when the first control failed?</p><h2>How to analyse more carefully</h2><p>A stronger analysis does not need to reject every RCA tool. It does
+need to avoid treating 5 Whys as sufficient. For complex events, the
+investigation should combine a timeline with a broader system model and
+a disciplined approach to evidence.</p><ul><li>Start with what happened, but do not stop there. A
+timeline is useful for sequencing events. It helps establish what
+occurred before what. But a timeline alone cannot explain the
+organisational, technical and regulatory conditions that shaped those
+events.</li><li>Look for interactions, not just causes. A
+taxiway-lineup risk was not created by one weakness. It emerged from the
+interaction between a non-standard airport configuration, information
+presentation, visual perception, workload, fatigue, automation and
+monitoring.</li><li>Map controls and feedback. Ask which controls were
+expected to prevent, detect or recover the hazardous state. In the Air
+Canada case, this includes flight crew cross-checking, navigation
+guidance, runway closure cues, ATC monitoring, surveillance systems,
+fatigue controls and reporting mechanisms.</li><li>Analyse recovery as well as failure. The event did
+not become a collision. That matters. Other aircraft crews noticed the
+developing risk, one crew transmitted a warning, lights were switched
+on, the Air Canada crew initiated a go-around and the controller issued
+a go-around instruction. Understanding recovery helps strengthen
+resilience, not only prevent recurrence.</li><li>Connect recommendations to controls. Each
+recommendation should be traceable to a specific weakness in prevention,
+detection, response or learning. “Be more careful” is not a system
+improvement. A stronger recommendation changes information design,
+tooling, alerting, procedures, staffing, authority, training realism, or
+feedback.</li></ul><h2>Methods that can help</h2><p>Different methods answer different questions. No method is
+universally best, and method choice should depend on the purpose of the
+analysis, the available evidence and the system boundary.</p><p class="table-scroll-hint">Swipe horizontally to view full table.</p><div class="responsive-table"><table><caption class="sr-only">Resource comparison table</caption>
+<colgroup>
+<col/>
+<col/>
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Method or approach</strong></th>
+<th><strong>What it helps reveal</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Timeline</td>
+<td>What happened, when it happened and where key opportunities for
+detection or recovery occurred.</td>
+</tr>
+<tr class="even">
+<td>AcciMap</td>
+<td>Contributory factors across system levels, such as regulation,
+organisation, management, operations, equipment and environment.</td>
+</tr>
+<tr class="odd">
+<td>HFACS</td>
+<td>Human, supervisory and organisational contributors, especially when
+used as a coding and classification aid rather than as the whole
+analysis.</td>
+</tr>
+<tr class="even">
+<td>CAST</td>
+<td>Control actions, feedback, responsibilities, flawed process models
+and safety constraints across a socio-technical control structure.</td>
+</tr>
+<tr class="odd">
+<td>FRAM</td>
+<td>Everyday work functions, performance variability, couplings and how
+normal adaptations can combine to produce both risk and recovery.</td>
+</tr>
+<tr class="even">
+<td>Bow-tie or barrier analysis</td>
+<td>Preventive and mitigative barriers, their degradation and whether
+controls were designed, implemented and monitored effectively.</td>
+</tr>
+<tr class="odd">
+<td>Task analysis and human factors review</td>
+<td>How tasks, tools, interfaces, workload, environment, communication
+and team coordination shaped performance.</td>
+</tr>
+</tbody>
+</table></div><p>The point is not to use every method on every event. The point is to
+choose methods that match the learning need. A serious socio-technical
+event usually deserves more than a string of whys.</p><h2>Practical questions for investigators</h2><p>These questions can help move an investigation beyond root cause
+thinking:</p><ul>
+<li>What exact hazardous state developed, and how did it become
+possible?</li>
+<li>Which controls were expected to prevent the state from
+developing?</li>
+<li>Which controls were expected to detect it once it began?</li>
+<li>Which controls were expected to support recovery?</li>
+<li>What information was available, missing, ambiguous, delayed or
+too weak to influence action?</li>
+<li>What assumptions did people and organisations appear to be
+relying on?</li>
+<li>Where did procedures assume more certainty, time or attention
+than the work allowed?</li>
+<li>Which parts of the system had authority to change the conditions
+that mattered?</li>
+<li>What would have made the safe action easier, earlier or more
+reliable?</li>
+<li>What evidence supports each finding?</li>
+<li>How will the organisation know whether the corrective actions
+actually worked?</li>
+</ul><p>These questions do not make analysis anti-practical. They make it
+more useful. They help the investigator move from naming causes to
+improving control.</p><h2>Common mistakes to avoid</h2><p>Be careful when an investigation does these things</p><ul>
+<li>Uses “human error” as the conclusion rather than the beginning of
+the analysis.</li>
+<li>Chooses the most convenient cause rather than the most
+evidence-supported explanation.</li>
+<li>Stops at the first cause that the local organisation can
+control.</li>
+<li>Treats the final “why” as automatically more important than
+earlier conditions.</li>
+<li>Produces recommendations that rely mainly on reminders, awareness
+or retraining.</li>
+<li>Ignores recovery, near-miss learning and evidence
+preservation.</li>
+<li>Fails to test whether recommended controls are strong enough and
+actually implemented.</li>
+</ul><p>Weak investigations can create a false sense of closure. A report may
+be completed, a form may be signed, and a training package may be
+issued, while the system remains largely unchanged.</p><h2>Limitations and cautions</h2><p>This does not mean every local problem needs a full systems-theoretic
+analysis. Some problems are simple, bounded and close to the work area.
+In those cases, a short 5 Whys discussion may be a useful prompt for
+reflection, provided that people do not overclaim what it proves.</p><p>The caution is strongest for serious incidents, near misses with
+catastrophic potential, recurrent events, events involving multiple
+organisations, or events involving technology, regulation, staffing,
+fatigue or complex decision-making. In these cases, 5 Whys should not be
+treated as the investigation.</p><p>It is also important not to replace one ritual with another. A CAST,
+FRAM, HFACS or AcciMap analysis can also be weak if it is poorly
+evidenced, overcomplicated or used mechanically. The value lies in
+disciplined thinking: clear boundaries, good evidence, attention to
+interactions, traceable findings and practical improvements.</p><h2>A better takeaway</h2><p>Do not ask only: “What was the root cause?”</p><p>Ask: “How did the hazardous state develop, why was it not detected earlier, how was it recovered, and what would make prevention, detection, response and learning stronger next time?”</p><p>That question is less tidy. It is also more honest. Safety in complex
+systems is not produced by a single root, and accidents are not
+prevented by cutting one branch. Safety is produced through many
+interacting controls, feedback loops, adaptations and design choices.
+Good investigation should make those relationships visible.</p><h2>Related publication(s)</h2><ul class="publication-list">
+<li>Kaya,
+G.K. (2021). A system safety approach to assessing risks in the sepsis
+treatment process. <em>Applied Ergonomics</em>. 94,103408. DOI:
+<a href="https://doi.org/10.1016/j.apergo.2021.103408" rel="noopener noreferrer" target="_blank">10.1016/j.apergo.2021.103408</a>.</li><li>Kaya,
+G.K., Humphreys, M., Camelia, F. and Chatzimichailidou, M. (2025).
+Integrating causal analysis based on system theory with network
+modelling to enhance accident analysis. <em>Ergonomics</em>. 1-28. DOI:
+<a href="https://doi.org/10.1080/00140139.2025.2516060" rel="noopener noreferrer" target="_blank">10.1080/00140139.2025.2516060</a>.</li><li>Kaya, G.K. Good Risk
+Assessment Practice in Hospitals. (2018). PhD thesis, University of
+Cambridge. DOI: <a href="https://doi.org/10.17863/CAM.20813" rel="noopener noreferrer" target="_blank">10.17863/CAM.20813</a>.</li><li>Kaya, G.K., Ward,
+J.R. and Clarkson, P.J. (2019). A framework to support risk assessment
+in hospitals. <em>International Journal for Quality in Health
+Care</em>. 31(5):393-401. DOI: <a href="https://doi.org/10.1093/intqhc/mzy194" rel="noopener noreferrer" target="_blank">10.1093/intqhc/mzy194</a>.</li><li>Losi, E., Kaya, G.K., Camelia, F., Chatzimichailidou, M., Slater,
+D.H., Patriarca, R. and Sujan, M. (under revision). <em>Systemic safety
+analysis of complex socio-technical events: insights from applying CAST
+and FRAM</em>. <em>Reliability Engineering &amp; System Safety</em>.
+Publication details forthcoming.</li></ul><h2>Selected references</h2><ul class="reference-list">
+<li>Card, A.J. (2017). The problem with ‘5 whys’. <em>BMJ Quality
+&amp; Safety</em>, 26, 671–677. DOI: <a href="https://doi.org/10.1136/bmjqs-2016-005849" rel="noopener noreferrer" target="_blank">10.1136/bmjqs-2016-005849</a>.</li><li>Latino, R.J. (2015). How is the effectiveness of root cause
+analysis measured in healthcare? <em>Journal of Healthcare Risk
+Management</em>, 35(2), 21–30. DOI: <a href="https://doi.org/10.1002/jhrm.21198" rel="noopener noreferrer" target="_blank">10.1002/jhrm.21198</a>.</li><li>Leveson, N.G. (2011). Applying systems thinking to analyze and
+learn from events. <em>Safety Science</em>, 49(1), 55–64. DOI: <a href="https://doi.org/10.1016/j.ssci.2009.12.021" rel="noopener noreferrer" target="_blank">10.1016/j.ssci.2009.12.021</a>.</li><li>Leveson, N.G. (2019). <em>CAST Handbook: How to Learn More from
+Incidents and Accidents</em>. MIT Partnership for Systems Approaches to
+Safety and Security.</li><li>National Transportation Safety Board. (2018). <em>Taxiway
+Overflight, Air Canada Flight 759, Airbus A320-211, C-FKCK, San
+Francisco, California, July 7, 2017</em>. NTSB/AIR-18/01.</li><li>Peerally, M.F., Carr, S., Waring, J. and Dixon-Woods, M. (2017).
+The problem with root cause analysis. <em>BMJ Quality &amp; Safety</em>,
+26, 417–422. DOI: <a href="https://doi.org/10.1136/bmjqs-2016-005511" rel="noopener noreferrer" target="_blank">10.1136/bmjqs-2016-005511</a>.</li><li>Reason, J. (1990). <em>Human Error</em>. Cambridge University
+Press.</li><li>Salmon, P.M., Cornelissen, M. and Trotter, M.J. (2012).
+Systems-based accident analysis methods: A comparison of Accimap, HFACS
+and STAMP. <em>Safety Science</em>, 50(4), 1158–1170. DOI: <a href="https://doi.org/10.1016/j.ssci.2011.11.009" rel="noopener noreferrer" target="_blank">10.1016/j.ssci.2011.11.009</a>.</li><li>Vincent, C. (2004). Analysis of clinical incidents: A window on
+the system not a search for root causes. <em>Quality &amp; Safety in
+Health Care</em>, 13, 242–243. DOI: <a href="https://doi.org/10.1136/qshc.2004.010454" rel="noopener noreferrer" target="_blank">10.1136/qshc.2004.010454</a>.</li></ul>
+<section aria-labelledby="related-title" class="article-section related-resources">
+<h2 id="related-title">Related resources</h2>
+<div class="card-grid three-card-grid resource-grid related-resource-grid">
+<article class="card resource-card library-card" data-keywords="human factors, accident analysis, human error, HFACS, unsafe acts, preconditions, supervision, organisational influences, system safety, investigation, AcciMap, CAST, FRAM Guide A practical guide to looking beyond “human error” by examining how people, tasks, tools, environments, organisations and system interactions shape safety." data-resource-card="" data-theme="human-factors" data-title="Human factors in accident analysis" data-type="guide">
+<div class="tag-row"><span class="tag tag-theme">Human factors</span><span class="tag tag-type">Guide</span></div>
+<h3 class="resource-card__title"><a href="resource-human-factors-accident-analysis.html">Human factors in accident analysis</a></h3>
+<p class="resource-card__summary">A practical guide to looking beyond “human error” by examining how people, tasks, tools, environments, organisations and system interactions shape safety.</p>
+<p class="resource-card__topics">Human factors, accident analysis, human error, HFACS, system safety, investigation methods</p>
+<a aria-label="Read resource: Human factors in accident analysis" class="read-link" href="resource-human-factors-accident-analysis.html">Read resource</a>
+</article>
+<article class="card resource-card library-card" data-keywords="STPA, FRAM, CAST, hazard analysis, event analysis, system safety, method selection, control structure, variability Method note A practical guide to choosing between three systems-based approaches by starting with the safety question, not the method." data-resource-card="" data-theme="system-safety" data-title="STPA, FRAM or CAST: which method fits the question?" data-type="method-note">
+<div class="tag-row"><span class="tag tag-theme">System safety</span><span class="tag tag-type">Method note</span></div>
+<h3 class="resource-card__title"><a href="resource-stpa-fram-cast.html">STPA, FRAM or CAST: which method fits the question?</a></h3>
+<p class="resource-card__summary">A practical guide to choosing between three systems-based approaches by starting with the safety question, not the method.</p>
+<p class="resource-card__topics">STPA, FRAM, CAST, hazard analysis, event analysis</p>
+<a aria-label="Read resource: STPA, FRAM or CAST: which method fits the question?" class="read-link" href="resource-stpa-fram-cast.html">Read resource</a>
+</article>
+<article class="card resource-card library-card" data-keywords="socio-technical systems, system interactions, human factors, risk assessment, safety, people, technology, organisations, regulation Guide A plain-language guide to why safety depends on the way people, technology, tasks, organisations and regulation work together." data-resource-card="" data-theme="system-safety" data-title="What is socio-technical safety?" data-type="guide">
+<div class="tag-row"><span class="tag tag-theme">System safety</span><span class="tag tag-type">Guide</span></div>
+<h3 class="resource-card__title"><a href="resource-socio-technical-safety.html">What is socio-technical safety?</a></h3>
+<p class="resource-card__summary">A plain-language guide to why safety depends on the way people, technology, tasks, organisations and regulation work together.</p>
+<p class="resource-card__topics">Socio-technical systems, system interactions, human factors, risk assessment</p>
+<a aria-label="Read resource: What is socio-technical safety?" class="read-link" href="resource-socio-technical-safety.html">Read resource</a>
+</article>
+</div>
+</section>
+<p><a class="button button-secondary" href="resources.html">Back to all resources</a></p>
+</article>
+<aside aria-label="Article details" class="article-sidebar">
+<div class="article-meta-card card">
+<h2>Article details</h2>
+<dl>
+<div><dt>Theme</dt><dd>Safety thinking</dd></div>
+<div><dt>Resource type</dt><dd>Guide</dd></div>
+<div><dt>Estimated reading time</dt><dd>19 min</dd></div><div><dt>Published</dt><dd>4 July 2026</dd></div>
+<div><dt>Related topics</dt><dd>5 Whys, root cause analysis, incident investigation, systems thinking, Air Canada 759, CAST, FRAM</dd></div>
+</dl>
+<a class="read-link" href="resources.html">Back to all resources</a>
+<a class="read-link share-linkedin linkedin-share-button" href="https://www.linkedin.com/sharing/share-offsite/" rel="noopener noreferrer" target="_blank">Share on LinkedIn</a></div>
+<div class="article-note card">
+<h2>Note</h2>
+<p>This explanatory resource is not a replacement for the original papers, standards, local evidence or professional judgement.</p>
+</div>
+</aside>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<div class="container footer-grid">
+<div class="footer-main">
+<h2>The Socio-Technical Safety Studio</h2>
+<p>Research-informed resources on system safety, human factors and socio-technical risk.</p>
+<p class="footer-note">Views expressed are personal and do not necessarily represent any institution.</p>
+</div>
+<nav aria-label="Footer navigation" class="footer-nav">
+<h3>Explore</h3>
+<a href="about.html">About</a>
+<a href="resources.html">Resources</a>
+<a href="services.html">Services</a>
+<a href="contact.html">Get in touch</a>
+</nav>
+<div class="footer-nav">
+<h3>Profiles</h3>
+<a href="https://www.linkedin.com/in/gkubrakaya/" rel="noopener noreferrer" target="_blank">www.linkedin.com/in/gkubrakaya</a>
+<a href="https://scholar.google.com/citations?user=qL2nMqkAAAAJ&amp;hl=en" rel="noopener noreferrer" target="_blank">Google Scholar</a>
+</div>
+</div>
+<div class="container footer-bottom">
+<p>© <span id="current-year">2026</span> The Socio-Technical Safety Studio. All rights reserved.</p>
+</div>
+</footer>
+<script src="assets/js/script.js"></script>
+</body>
+</html>
